@@ -104,23 +104,32 @@ set(UTIL
 
 #Game Source Files
 Set(GAME_SCENES
-	${PRIVATE_DIR}/Game/Scenes/Maze3DScene.cpp
+	${PRIVATE_DIR}/Game/Scenes/Test/BlockTestScene.cpp
+	# ${PRIVATE_DIR}/Game/Scenes/Maze3DScene.cpp
 )
 
 set(GAME_OBJECTS
 	${PRIVATE_DIR}/Game/Objects/Player.cpp
-	${PRIVATE_DIR}/Game/Objects/Maze.cpp
+	${PRIVATE_DIR}/Game/Objects/Blocks/Block.cpp
+	${PRIVATE_DIR}/Game/Objects/Blocks/Dirt.cpp
+	# ${PRIVATE_DIR}/Game/Objects/Maze.cpp
 )
 
 set(GAME_COMPONENTS
 	${PRIVATE_DIR}/Game/Components/MovementComponent.cpp
-	${PRIVATE_DIR}/Game/Components/MazeGeneratorComponent.cpp
+	# ${PRIVATE_DIR}/Game/Components/MazeGeneratorComponent.cpp
+)
+
+set(GAME_SYSTEMS
+	${PRIVATE_DIR}/Game/Systems/BlockSystem.cpp
 )
 
 set(GAME
 	${GAME_SCENES}
 	${GAME_OBJECTS}
 	${GAME_COMPONENTS}
+	${GAME_SYSTEMS}
+	${PRIVATE_DIR}
 )
 
 set(SOURCES

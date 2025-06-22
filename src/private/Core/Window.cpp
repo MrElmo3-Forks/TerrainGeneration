@@ -4,7 +4,7 @@
 #include <GLFW/glfw3.h>
 #include <iostream>
 #include <Core/Scenes/TestPhongLightScene.h>
-
+#include <Game/Scenes/Test/BlockTestScene.h>
 #include <Core/Scenes/TestScene.h>
 #include <Core/Global.h>
 #include <Util/Logger.h>
@@ -39,7 +39,7 @@ void Window::Start() {
 
 	glEnable(GL_DEPTH_TEST);
 	
-	actualScene = new TestPhongLightScene();
+	actualScene = new BlockTestScene();
 	actualScene->Awake();
 	actualScene->Start();
 }
