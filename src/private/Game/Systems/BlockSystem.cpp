@@ -1,5 +1,5 @@
 #include <Game/Systems/BlockSystem.h>
-#include <Game/Objects/Blocks/Block.h>
+#include <Game/Objects/Block.h>
 
 float BlockSystem::TileSize = 1.0f/3.0f;
 

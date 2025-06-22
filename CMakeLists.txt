@@ -110,7 +110,7 @@ Set(GAME_SCENES
 
 set(GAME_OBJECTS
 	${PRIVATE_DIR}/Game/Objects/Player.cpp
-	${PRIVATE_DIR}/Game/Objects/Blocks/Block.cpp
+	${PRIVATE_DIR}/Game/Objects/Block.cpp
 	${PRIVATE_DIR}/Game/Objects/Blocks/Dirt.cpp
 	# ${PRIVATE_DIR}/Game/Objects/Maze.cpp
 )

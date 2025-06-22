@@ -1,5 +1,5 @@
 #pragma once
-#include <Game/Objects/Blocks/Block.h>
+#include <Game/Objects/Block.h>
 
 class Dirt : public Block {
 public:

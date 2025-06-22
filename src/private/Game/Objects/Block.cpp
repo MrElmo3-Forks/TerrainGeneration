@@ -1,4 +1,4 @@
-#include <Game/Objects/Blocks/Block.h>
+#include <Game/Objects/Block.h>
 #include <Core/Components/Render/RenderCubeComponent.h>
 #include <Game/Systems/BlockSystem.h>
 #include <Core/Materials/LitMaterial.h>
